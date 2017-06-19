@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto');
+
+body{
+  height: 100vh; 
+  font-size: 40px; 
+  font-family: 'Roboto', sans-serif;
+}
+
+div#root{
+  width: 60%; 
+  max-width: 800px; 
+/*   border: 2px solid;  */
+  margin: auto;
+  height: 100vh; 
+  margin-top: 20px;
+  border-radius: 10px; 
+}
+
+div.wrapper{
+  position: relative; 
+  height: 100%;
+  width: 100%; 
+  border-radius: 10px; 
+/*   border: 2px solid black;  */
+/*   border: 2px solid black;  */
+}
+
+img{
+  height: 100%; 
+  width: 100%; 
+  filter: grayscale(100%); 
+  border-radius: 10px; 
+}
+
+div.profile{
+/*   height: 150px;  */
+  position: absolute;
+  bottom: 20px;
+  left: 24px; 
+  width: 90%; 
+  margin: auto; 
+  z-index: 1; 
+  background: linear-gradient(-3deg, rgba(225, 73, 210, .8), rgba(227, 108, 44, .8));
+  color: white; 
+  font-size:1rem;
+  border-radius: 10px;
+  display: flex; 
+  flex-direction: column; 
+  justify-content: space-around; 
+  transition: height 1s;
+/*   border: 2px solid black;  */
+}
+
+div.profile > div{
+/*   border: 2px dotted;  */
+  letter-spacing: 4px; 
+  font-size: 1rem;
+  margin: 5px 5px 2px 5px; 
+  padding: 10px 10px; 
+}
+
+div.name{
+  display: flex; 
+  justify-content: space-between; 
+}
+
+div.name button{
+  border: 0; 
+  background: transparent;
+  cursor: pointer; 
+  outline: 0;
+  font-size: 1rem;
+  color: white; 
+}
+
+
+div.details{
+  display: flex; 
+  justify-content: space-between; 
+}
+
+
+div.location{
+    display: flex; 
+    flex-direction: column;
+}
+
+div.location span.icon {
+/*   border: 2px solid;  */
+  text-align: center; 
+  margin-bottom: 5px; 
+}
+
+
+
+
